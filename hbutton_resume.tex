@@ -1,0 +1,224 @@
+%-------------------------
+% Resume in Latex
+% Original Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+% Header taken from LaTeX template :
+% Copyright (C) 2019 by Cheng XU <copyright@xuc.me>
+
+
+
+
+\documentclass[letterpaper,11pt]{article}
+
+
+\RequirePackage[fixed]{fontawesome5}
+
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      {\small#1} & {\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING-----------------
+\begin{minipage}[c]{.4\linewidth}
+    {\textbf{\Huge Harrison Button \\ \small{He/Him} }}%
+\end{minipage}%
+\begin{minipage}[c]{.6\linewidth}
+    \begin{flushright}
+        \faIcon{phone}~0433 931 043 \hspace{1pt} \faIcon{envelope}~harrisonsbutton@gmail.com \\
+        \faIcon{linkedin}~linkedin.com/in/harrisonsbutton \\ 
+        \faIcon{github}~github.com/hbutton
+    % wait until Github is more fleshed out before adding in here Harrison
+    \end{flushright}
+\end{minipage}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading{The University of Western Australia}{}
+    {Master of Data Science}{July 2022 - Current}
+    \resumeSubheading{The University of Queensland}{}
+    {Bachelor of Science (Honours) in Exploration Geophysics}{Feb. 2019 - Nov. 2020}
+      \begin{itemize}
+        \resumeItem{}{Thesis Title: Linear inversion of seismic refraction amplitudes for near-surface velocity control.}
+      \end{itemize}\vspace{-5pt}
+    \resumeSubSubheading
+      {Bachelor of Mathematics / Science in Statistics and Geological Sciences (Extended)}{Feb. 2014 - Nov. 2018}
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Rio Tinto Exploration}{}
+      {Geodata Scientist}{Aug. 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Work as part of a global team to provide data science support to the regional and global exploration teams.}
+        \resumeItem{}
+          {Use Python and R to develop machine learning models and create interactive visualisations.}
+        \resumeItem{}
+          {Experience using Amazon Sagemaker and RStudio Connect.}
+        \resumeItem{}
+          {Provide training on R, data science, and statistics to the Australasia team.}
+      \resumeItemListEnd
+    \resumeSubSubheading
+     {Vacation Student - Geophysics}{Nov. 2020 - Aug. 2021}
+     \resumeItemListStart
+        \resumeItem{}
+          {Completed routine analysis of geophysical and petrophysical data.}
+        \resumeItem{}
+          {Compiled project-wide and state-wide data sets.}
+        \resumeItem{}
+          {Supervised both airborne and ground geophysical surveys undertaken by contractors.}
+        \resumeItem{}
+          {Implemented data science techniques to analyse geophysical and geochemical data.}
+     \resumeItemListEnd
+
+    \resumeSubheading
+      {The University of Queensland}{}
+      {Tutor, School of Mathematics and Physics}{Jul. 2017 - Nov. 2020}
+      \resumeItemListStart
+        \resumeItem{}
+          {Instructed students in probability and statistics; demonstrated the use of R, Python, and Matlab; marked assessment; aided the development of upper year course material.} 
+        \resumeItem{}
+          {Tutored a wide range of introductory and advanced courses to specialist and non-specialist students. Select courses include DATA7202 "Statistical Methods for Data Science", STAT3006 "Statistical Learning", and STAT3500 "Problems and Applications in Modern Statistics".}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Santos}{}
+      {Vacation Student - Geomechanics}{Nov. 2017 - Feb. 2018}
+      \resumeItemListStart
+        \resumeItem{}
+          {Populated a database with frac pressure data; analysed fracture gradients and created mechanical earth models to identify pore pressure/stress coupling ratios throughout the Cooper Basin.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Origin Energy}{}
+      {Vacation Student - Exploration and New Resources}{Nov. 2016 - Feb. 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Populated a new database with petrophysical well log data; performed QAQC of well log data.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming: }
+      {Experienced in Python, R, Fortran, \LaTeX. Basics in Matlab, VBA, SQL}
+    \resumeSubItem{Software: }
+      {Microsoft Excel, Linux, Oasis Montaj, ioGas, ModelVision, Geoscience Analyst}
+    \resumeSubItem{Technologies: }
+      {Amazon Sagemaker, RStudio Connect, Tensorflow, R Shiny, Tidyverse, Git}
+  \resumeSubHeadingListEnd
+
+%
+%--------MEMBERSHIPS------------
+\section{Professional Memberships}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Australian Society of Exploration Geophysicists: }
+      {Graduate Member}
+    \resumeSubItem{Australian Institute of Geoscientists: }
+      {Graduate Member}
+  \resumeSubHeadingListEnd
+
+%--------MEMBERSHIPS------------
+\section{Hobbies}
+  \resumeSubHeadingListStart
+    \resumeSubItem{}
+      {Playing and seeing live music; collecting vinyl records; tinkering with computers; stationery.}
+  \resumeSubHeadingListEnd
+
+
+
+
+%-------------------------------------------
+\end{document}

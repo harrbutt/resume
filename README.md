@@ -1,2 +1,3 @@
-# resume
-Software developer resume in Latex based on sb2nov/resume
+A single-page, one-column resume for software developers. It uses the base latex templates and fonts to provide ease of use and installation when trying to update the resume. The different sections are clearly documented and custom commands are used to provide consistent formatting. The three main sections in the resume are education, experience, and projects.
+
+Harrison has stolen this from [Sourabh](https://github.com/sb2nov/resume) because it is very nice and he enjoys the look of it. The header however, was instead stolen from [Cheng](https://github.com/xu-cheng/cv). Many thanks to both Sourabh and Cheng!
